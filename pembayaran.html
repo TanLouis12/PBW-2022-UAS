@@ -1,0 +1,105 @@
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Toko Besi Surya Bulan</title>
+    </head>
+    <body >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm mb-md-3" style="background-color: rgb(241, 70, 13);">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#" style="font-size: 30px;">TB. Surya Bulan</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="" class="nav-item">
+                            <a href="index.html" style="text-decoration: none;color: white;">Home</a> |
+                            <a href="belanja.html" style="text-decoration: none;color: white;" >Belanja</a> |
+                            <a href="pembayaran.html" style="text-decoration: none;color: white;">Pembayaran</a> |
+                        </li>
+                    </ul>
+                </div>
+                <div >
+                    <i style="font-size: 1cm; margin-left: 5cm;color: white;margin: 10px;" class="fa-brands fa-facebook"></i>
+                    <i style="font-size: 1cm; margin-left: 5cm;color: white;margin: 10px;" class="fa-brands fa-instagram"></i>
+                    <i style="font-size: 1cm; margin-left: 5cm;color: white;margin: 10px;" class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </nav>
+        
+         <!--Contact-->
+    <section id="contact">
+        <div class="container mb-5">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Pembayaran</h2>
+                </div>
+            </div>
+            <div style="padding-left:13%" ; class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+            <table border="5" style="margin-top: 7%;width: 380px;" >
+                <tr>
+                    <td style="font-size: 20px;padding-top: 10%;padding-left: 5%;">Nama:</td>
+                    <td style="padding-top: 10%;padding-left: 5%;"><input type="text" name="nma" required></td>
+                    <td style="padding-top: 10%;padding-left: 5%;"></td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px;padding-top: 10%;padding-left: 5%;">Alamat :</td>
+                    <td style="padding-top: 10%;padding-left: 5%;"><input type="Text" name="alm" required></td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px;padding-top: 10%;padding-left: 5%;">Tgl:</td>
+                    <td style="padding-top: 10%;padding-left: 5%;"><input type="Date" name="tgl" required></td>
+                 </tr>
+                 <tr>
+                    <td style="font-size: 20px;padding-top: 10%;padding-left: 5%;">Pilih Bank:</td>
+                    <td style="padding-top: 10%;padding-left: 5%;"><select name="fprodi" required>
+                            <option value=""> Pilih </option>
+                            <option value="bank1"> BCA
+                            </option>
+                            <option value="bank2"> BNI
+                            </option>
+                            <option Value="bank3"> Mandiri
+                            </option>
+                            <option Value="bank3"> Citibank
+                            </option>
+                            <option Value="bank3"> BTN
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="left" style="padding-top: 10%;padding-left: 5%;padding-bottom: 10%;">
+                        <input type="submit" name="fsubmit" value="Bayar">
+                        <input type="hidden" name="fhidden" value="Rahasia">
+                    </td>
+                </tr>
+            </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <table style="margin-left: 10%;margin-top: 7%;" >
+            <tr>
+                <td><img src="BCA.jpeg" width="300px" height="150px" ></td>
+                <td><img src="BNI.jpeg" width="300px" height="150px" ></td>
+                <td><img src="BRI.jpeg" width="300px" height="150px" ></td>
+                <td><img src="Mandiri.jpeg" width="300px" height="150px" ></td>
+                <td><img src="BTN-removebg-preview.png" width="300px" height="210px" ></td>
+            </tr>
+        </table>
+    </section>
+    <a class=""></a>
+    <!--Footer-->
+    <hr>
+    <footer class="foot text-white pb-1 text-center" style="background-color: rgb(241, 70, 13);">
+        <p>Copyright by: Tan Louis Surya Wijaya</p>
+    </footer>
+    </body>
+</html>

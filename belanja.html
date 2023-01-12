@@ -1,0 +1,218 @@
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Toko Besi Surya Bulan</title>
+    <script>
+        function hitung(){
+            var form = document.formhitung;
+            var x = 125000;
+            var y = eval(form.bil2.value);
+            var pil = form.opr.value;
+            if(pil=="*"){
+            var z = x*y;}
+            form.hasil.value =z;
+        }
+        function hitung1(){
+            var form = document.formhitung1;
+            var x = 58000;
+            var y = eval(form.bil2.value);
+            var pil = form.opr.value;
+            if(pil=="*"){
+            var z = x*y;}
+            form.hasil.value =z;
+        }
+        function hitung2(){
+            var form = document.formhitung2;
+            var x = 135000;
+            var y = eval(form.bil2.value);
+            var pil = form.opr.value;
+            if(pil=="*"){
+            var z = x*y;}
+            form.hasil.value =z;
+        }
+        function hitung3(){
+            var form = document.formhitung3;
+            var x = 175000;
+            var y = eval(form.bil2.value);
+            var pil = form.opr.value;
+            if(pil=="*"){
+            var z = x*y;}
+            form.hasil.value =z;
+        }
+        function hitung4(){
+            var form = document.formhitung4;
+            var x = 57000;
+            var y = eval(form.bil2.value);
+            var pil = form.opr.value;
+            if(pil=="*"){
+            var z = x*y;}
+            form.hasil.value =z;
+        }
+        function hitung5(){
+            var form = document.formhitung5;
+            var x = 150000;
+            var y = eval(form.bil2.value);
+            var pil = form.opr.value;
+            if(pil=="*"){
+            var z = x*y;}
+            form.hasil.value =z;
+        }
+    </script>
+    </head>
+    <body style="background-color: black;">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm mb-md-3" style="background-color: rgb(241, 70, 13);">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#" style="font-size: 30px;">TB. Surya Bulan</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" style="text-decoration: none;color: white;">Home</a> |
+                            <a href="belanja.html" style="text-decoration: none;color: white;" >Belanja</a> |
+                            <a href="pembayaran.html" style="text-decoration: none;color: white;">Pembayaran</a> |
+                        </li>
+                    </ul>
+                </div>
+                <div >
+                    <i style="font-size: 1cm; margin-left: 5cm;color: white;margin: 10px;" class="fa-brands fa-facebook"></i>
+                    <i style="font-size: 1cm; margin-left: 5cm;color: white;margin: 10px;" class="fa-brands fa-instagram"></i>
+                    <i style="font-size: 1cm; margin-left: 5cm;color: white;margin: 10px;" class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </nav>
+        <section  id="product">
+            <div  style="width: 100%" ; class="row text-center mb-3 ">
+                <div class="col">
+                    <h2 style="color: white;">Product</h2>
+                </div>
+            </div>
+            <div style="width: 100%" class="row mb-3">
+                <div style="padding-left: 10%;"class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="semen.jpg" class="card-img-top" alt="semen" width="800px" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Semen</h5>
+                            <form name="formhitung1" action="#">
+                                harga: 58000/sak
+                                </br>
+                                <select name="opr">
+                                    <option value="*">*</option>
+                                </select><br>
+                                Jumlah <input type="number" name="bil2"><br>
+                                <input type="button" value="=" onclick="hitung1()">
+                                <input type="number" name="hasil" disabled>
+                            </form>
+                            <a href="#" class="btn btn-primary">Belanja</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 10%"; class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="galvalum.jpg" class="card-img-top" alt="galvalum" width="800px" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Galvalum</h5>
+                            <form name="formhitung" action="#">
+                                harga: 125000/meter 
+                                </br>
+                                <select name="opr">
+                                    <option value="*">*</option>
+                                </select><br>
+                                Jumlah <input type="number" name="bil2"><br>
+                                <input type="button" value="=" onclick="hitung()">
+                                <input type="number" name="hasil" disabled>
+                            </form>
+                            <a href="#" class="btn btn-primary">Belanja</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 10%"; class="col-md-4 mb-2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="pasir.jpg" class="card-img-top" alt="pasir" width="800px" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasir</h5>
+                            <form name="formhitung2" action="#">
+                                harga: 135000/kubik
+                                </br>
+                                <select name="opr">
+                                    <option value="*">*</option>
+                                </select><br>
+                                Jumlah <input type="number" name="bil2"><br>
+                                <input type="button" value="=" onclick="hitung2()">
+                                <input type="number" name="hasil" disabled>
+                            </form>
+                            <a href="#" class="btn btn-primary">Belanja</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 10%"; class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="besi cor.jpg" class="card-img-top" alt="besi cor" width="800px" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Besi Cor</h5>
+                            <form name="formhitung3" action="#">
+                                harga: 175000/batang
+                                </br>
+                                <select name="opr">
+                                    <option value="*">*</option>
+                                </select><br>
+                                Jumlah <input type="number" name="bil2"><br>
+                                <input type="button" value="=" onclick="hitung3()">
+                                <input type="number" name="hasil" disabled>
+                            </form>
+                            <a href="#" class="btn btn-primary">Belanja</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 10%"; class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="asbes.jpg" class="card-img-top" alt="asbes" width="800px" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Asbes</h5>
+                            <form name="formhitung4" action="#">
+                                harga: 57000/lembar
+                                </br>
+                                <select name="opr">
+                                    <option value="*">*</option>
+                                </select><br>
+                                Jumlah <input type="number" name="bil2"><br>
+                                <input type="button" value="=" onclick="hitung4()">
+                                <input type="number" name="hasil" disabled>
+                            </form>
+                            <a href="#" class="btn btn-primary">Belanja</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 10%"; class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="besibeton.jpg" class="card-img-top" alt="besi beton" width="800px" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Besi Beton</h5>
+                            <form name="formhitung5" action="#">
+                                harga: 150000/lembar
+                                </br>
+                                <select name="opr">
+                                    <option value="*">*</option>
+                                </select><br>
+                                Jumlah <input type="number" name="bil2"><br>
+                                <input type="button" value="=" onclick="hitung5()">
+                                <input type="number" name="hasil" disabled>
+                            </form>
+                            <a href="#" class="btn btn-primary">Belanja</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <hr>
+    <footer class="foot text-white pb-1 text-center" style="background-color: rgb(241, 70, 13);">
+        <p>Copyright by: Tan Louis Surya Wijaya</p>
+    </footer>
+    </body>
+</html>
